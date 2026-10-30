@@ -7,5 +7,8 @@ int main() {
     std::cin >> name;
     std::cout << "Hello, " << name << "!" << std::endl;
     std::cout << "Enter your age: ";
+    int age;    
+
+    std::cout << "You are " << age << " years old." << std::endl;
     return 0;
 }
