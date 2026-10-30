@@ -10,5 +10,7 @@ int main() {
     int age;    
 
     std::cout << "You are " << age << " years old." << std::endl;
+    std::cout << "Enter your email: ";
+    std::string email;
     return 0;
 }
