@@ -18,5 +18,14 @@ int main() {
     std::string phone;
     std::cin >> phone;
     std::cout << "Your phone number is " << phone << "." << std::endl;
+    std::cout << "Enter your address: ";
+    std::string address;
+    std::cin >> address;
+    std::cout << "Your address is " << address << "." << std::endl;
+    std::cout << "Enter your city: ";
+    std::string city;
+    std::cin >> city;
+    std::cout << "Your city is " << city << "." << std::endl;
+    std::cout << "Enter your state: ";
     return 0;
 }
