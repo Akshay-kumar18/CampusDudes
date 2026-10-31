@@ -1,11 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Welcome to the GitHub Collaborator.....</h1>    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CampusDudes | Hackathon Ready</title>
+    <meta
+      name="description"
+      content="CampusDudes is a modern campus collaboration platform focused on Git mastery, team building, and hackathon innovation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">C</span>
+          <span>CampusDudes</span>
+        </div>
+        <nav class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#architecture">Architecture</a>
+          <a href="#impact">Impact</a>
+        </nav>
+        <button class="ghost-button">Launch Demo</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <span class="eyebrow">Built for innovation and impact</span>
+          <h1>Turn a learning repo into a campus innovation platform.</h1>
+          <p>
+            CampusDudes helps students master Git, discover the right teammates,
+            and turn ideas into polished hackathon wins through smarter project
+            planning and stronger execution.
+          </p>
+
+          <div class="cta-row">
+            <button class="primary-button">Explore Platform</button>
+            <button class="secondary-button">View Architecture</button>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <strong data-count="96">0</strong>
+              <span>Git readiness</span>
+            </div>
+            <div class="stat-card">
+              <strong data-count="4.8">0</strong>
+              <span>Innovation score</span>
+            </div>
+            <div class="stat-card">
+              <strong data-count="89">0</strong>
+              <span>Team impact</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="panel-top">
+            <span class="dot green"></span>
+            <span class="dot yellow"></span>
+            <span class="dot red"></span>
+          </div>
+
+          <div class="dashboard-card">
+            <div class="mini-title">Project Momentum</div>
+            <div class="score-ring">
+              <div class="score-inner">
+                <span>92</span>
+                <small>Overall</small>
+              </div>
+            </div>
+            <div class="progress-list">
+              <div class="progress-item">
+                <label>Innovation</label>
+                <div class="progress-bar"><span style="width: 95%"></span></div>
+              </div>
+              <div class="progress-item">
+                <label>UX</label>
+                <div class="progress-bar"><span style="width: 88%"></span></div>
+              </div>
+              <div class="progress-item">
+                <label>Impact</label>
+                <div class="progress-bar"><span style="width: 91%"></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <div class="section-heading">
+          <span class="eyebrow">Core features</span>
+          <h2>Built to impress judges and solve real student problems.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="icon">G</div>
+            <h3>GitQuest</h3>
+            <p>
+              Interactive Git learning simulator with branch logic, merge practice,
+              and real-time visual feedback for beginners and teams.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">T</div>
+            <h3>CampusConnect</h3>
+            <p>
+              Skill-matching and team formation dashboard for students to build
+              balanced, high-performing project squads.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="icon">H</div>
+            <h3>Hackathon Copilot</h3>
+            <p>
+              Idea generation and judging score engine that helps teams sharpen
+              pitch quality and project readiness.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="architecture" class="architecture-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Architecture</span>
+            <h2>High-quality structure that scales beyond a demo.</h2>
+          </div>
+
+          <div class="architecture-grid">
+            <div class="arch-card">
+              <h3>Frontend</h3>
+              <p>Responsive landing pages, dashboards, visual storytelling, and polished interaction patterns.</p>
+            </div>
+            <div class="arch-card">
+              <h3>Logic Engine</h3>
+              <p>Reusable C++ scoring and evaluation models for project quality and team metrics.</p>
+            </div>
+            <div class="arch-card">
+              <h3>Data Layer</h3>
+              <p>JSON and lightweight persistence for challenges, project ideas, and skill compatibility scores.</p>
+            </div>
+            <div class="arch-card">
+              <h3>Product Story</h3>
+              <p>Clear narrative around learning, teamwork, and impactful execution that judges understand instantly.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="impact" class="impact container">
+        <div class="impact-box">
+          <div class="section-heading left-aligned">
+            <span class="eyebrow">Why it wins</span>
+            <h2>Strong on innovation, technical depth, and real-world value.</h2>
+          </div>
+          <ul class="impact-list">
+            <li>Clear, understandable user value from the first screen</li>
+            <li>Modular code and clean architecture for maintainability</li>
+            <li>Scoring-driven product positioning for hackathon judging</li>
+            <li>Direct relevance to student collaboration and project execution</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>CampusDudes</span>
+        <span>Built for learning, teamwork, and bold ideas.</span>
+      </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
 </html>
